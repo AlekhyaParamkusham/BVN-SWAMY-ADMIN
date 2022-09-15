@@ -42,7 +42,7 @@ function App() {
                 }
               />
             </Route>
-            <Route path="articles">
+            <Route path="books">
               <Route
                 index
                 element={
@@ -82,7 +82,7 @@ function App() {
                 }
               />
             </Route>
-            <Route path="articles/add">
+            <Route path="books/add">
               <Route
                 index
                 element={
