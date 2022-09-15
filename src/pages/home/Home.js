@@ -26,7 +26,7 @@ const Home = () => {
             </div>
           </Link>
           <Link
-            to="/articles"
+            to="/books"
             style={{
               textDecoration: "none",
               color: "inherit",
@@ -38,7 +38,7 @@ const Home = () => {
                 alt=""
                 className="avatar"
               />
-              <p className="title">Articles</p>
+              <p className="title">Books</p>
             </div>
           </Link>
           <Link
