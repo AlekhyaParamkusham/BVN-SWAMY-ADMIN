@@ -41,8 +41,8 @@ const Articles = () => {
   return (
     <>
       <Single
-        title="ARTICLES"
-        addTitle="Add a new article"
+        title="BOOKS"
+        addTitle="Add a new book"
         columns={columns}
         rows={values}
       />
