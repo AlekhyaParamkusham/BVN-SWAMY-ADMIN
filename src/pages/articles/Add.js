@@ -38,7 +38,7 @@ const Add = () => {
               // photoURL: file,
             });
 
-            navigate("/articles");
+            navigate("/books");
           } catch (err) {
             console.log(err);
             setErr(true);
@@ -57,7 +57,7 @@ const Add = () => {
       <Navbar />
       <div className="addAr">
         <div className="wrapper">
-          <h2 className="title">Add Article</h2>
+          <h2 className="title">Add a Book</h2>
           <form onSubmit={handleAdd}>
             <input
               required
